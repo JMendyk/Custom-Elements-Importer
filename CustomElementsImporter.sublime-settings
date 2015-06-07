@@ -1,0 +1,42 @@
+{
+	/* 	Custom Elements Importer assumes that (for example) for tags prefixed with "x" (such as "x-foo", "x-bar") and prefix_path set to "bower_components"
+		file structure looks like this:
+		
+		|- html_file_where_import_is_called.html
+		|- bower_components
+		   |- x-foo
+		      |- x-foo.html
+		   |- x-bar
+			  |- x-bar.html
+
+		You can also provide direct path to tag not belonging to some prefixed group in "tag_paths" section
+	*/
+
+
+	// default path if tags does not match neither "prefix_paths" not "tag_paths"
+	"default_path": "bower_components",
+
+	// define common paths for all elements with certain prefix
+	"prefix_paths": {
+		// example: "x": "my_tags/x"
+
+
+
+	},
+
+	// define paths per-tag
+	"tag_paths": {
+		// example: "x-tag": "my_tags/x-tag.html"
+
+
+
+	},
+
+	// define import dependencies if element requires additional files
+	"tag_dependencies": {
+		// example: "cool-icon": ["cool-icons-set"] 
+
+
+
+	}
+}
