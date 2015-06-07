@@ -14,7 +14,7 @@ Run "Custom Elements Importer" using Command Palette (`Ctrl+Shift+P`) with "Impo
   - defining import dependencies (ex. "cool-icon" requires "cool-icons-set" to work properly)
 
 ### Settings:
-Below is example settings file with descriptions of all properties
+Below is example settings file with descriptions of all properties.
 ```javascript
 {
 	// default path if tags does not match neither "prefix_paths" not "tag_paths"
